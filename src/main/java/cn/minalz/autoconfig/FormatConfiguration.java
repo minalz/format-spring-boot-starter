@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * @author zhouwei
  * @date 2023/3/16 16:40
  */
+
 @Configuration
 public class FormatConfiguration {
 
@@ -24,6 +25,11 @@ public class FormatConfiguration {
 //    @Conditional(value = "com.alibaba.fastjson.JSONObject")
     @Bean
     public FormatProcessor jsonFormatProcess() {
+        return new JsonFormatProcessor();
+    }
+
+    @Bean
+    public FormatProcessor jsonFormatProcess1() {
         return new JsonFormatProcessor();
     }
 }
