@@ -9,7 +9,7 @@ import com.alibaba.fastjson.JSONObject;
 public class JsonFormatProcessor implements FormatProcessor{
 
     @Override
-    public String format(Object obj) {
+    public <T> String format(T obj) {
         return "JsonFormatProcessor: " + JSONObject.toJSON(obj);
     }
 }

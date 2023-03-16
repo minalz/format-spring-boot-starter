@@ -1,5 +1,7 @@
 package cn.minalz.format;
 
+import java.util.Objects;
+
 /**
  * @author zhouwei
  * @date 2023/3/16 16:35
@@ -7,7 +9,7 @@ package cn.minalz.format;
 public class StringFormatProcessor implements FormatProcessor{
 
     @Override
-    public String format(Object obj) {
-        return "StringFormatProcessor: " + obj.toString();
+    public <T> String format(T obj) {
+        return "StringFormatProcessor: " + Objects.toString(obj);
     }
 }
