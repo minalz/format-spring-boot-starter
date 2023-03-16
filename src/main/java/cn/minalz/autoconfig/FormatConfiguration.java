@@ -28,8 +28,4 @@ public class FormatConfiguration {
         return new JsonFormatProcessor();
     }
 
-    @Bean
-    public FormatProcessor jsonFormatProcess1() {
-        return new JsonFormatProcessor();
-    }
 }
