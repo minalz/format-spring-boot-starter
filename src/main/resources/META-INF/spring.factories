@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  cn.minalz.autoconfiguration.HelloAutoConfiguration
+  cn.minalz.autoconfigure.HelloAutoConfiguration

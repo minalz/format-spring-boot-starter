@@ -1,4 +1,4 @@
-package cn.minalz.autoconfiguration;
+package cn.minalz.autoconfigure;
 
 import cn.minalz.format.FormatProcessor;
 import cn.minalz.format.JsonFormatProcessor;
